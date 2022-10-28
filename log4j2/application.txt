@@ -9,6 +9,11 @@ import org.apache.logging.log4j.core.LoggerContext;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
+//REQUIRED LIBS
+//log4j-api-2.16.0.jar
+//log4j-core-2.16.0.jar
+//log4j-slf4j-impl-2.16.0.jar
+//slf4j-api-1.7.25.jar
 public class Application {
 	private static final Logger logger = LoggerFactory.getLogger(Application.class);
 	public static String Log4JPath = null;
